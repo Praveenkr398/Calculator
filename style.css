@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(125, 121, 125), #0f0f0f);
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-shadow: 0 0 15px #111;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    outline-offset: 2px;
+    outline: 1px solid rgb(143, 142, 142);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 3;
+    background: rgb(89, 222, 222);
+    user-select: none;
+}
+
+#display {
+    background-color: rgb(255, 242, 242);
+    padding: 10px;
+    width: 250px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: right;
+    overflow: auto;
+    border-radius: 5px;
+    border: none;
+    cursor: default;
+    outline: 1px solid black;
+    outline-offset: 2px;
+    box-shadow: 0 0 10px rgb(106, 104, 104);
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    user-select: none;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px #111;
+    border-radius: 50%;
+    outline-offset: 3px;
+    outline: 1px solid #111;
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+}
+
+.opt {
+    background-color: rgb(255, 170, 0);
+    color: black;
+}
+
+#euqlBtn {
+    background-color: rgb(9, 194, 6);
+}
+
+#plusMinus {
+    background-color: rgb(251, 121, 0);
+}
+
+.ac {
+    background-color: red;
+}
+
+.del {
+    background-color: rgb(234, 76, 19);
+    color: white;
+    outline: 5px soli white;
+    transition: transform 2s ease-in-out;
+    border-radius: 50% 20% 10% 5%;
+}
+
+
+.btn:active {
+    transform: rotate(360deg) scale(3.5);
+    outline: 2px solid white;
+    border: 1px solid blue;
+    z-index: 1;
+    transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+    background: linear-gradient(rgb(0, 0, 0), rgb(4, 4, 255), rgb(11, 251, 227));
+    box-shadow: 2px 2px 10px rgb(0, 4, 255), -2px -2px 10px green, 2px 2px 10px rgb(0, 255, 238);
+}
+
+.opt:active {
+    transform: scale(1.2) translate(5px);
+    outline: none;
+    z-index: -1;
+    transition: all 1s cubic-bezier(0.86, 2, 0.07, 5);
+    background: linear-gradient(red, rgb(255, 153, 0), rgb(241, 255, 52));
+    box-shadow: 2px 2px 10px red, -2px -2px 10px rgb(219, 254, 24), 2px 2px 10px blue;
+}
+
+.ac:active {
+    transform: translateY(-30px);
+    outline: 2px solid white;
+    border: 1px solid rgb(255, 0, 0);
+    z-index: 3;
+    transition: all 3s cubic-bezier(0.86, 2, 0.07, 5);
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 4, 4), rgb(246, 255, 0));
+    box-shadow: -2px -2px 10px rgb(255, 0, 0), -2px -2px 10px rgb(255, 0, 0), 2px 2px 10px rgb(255, 230, 0);
+}
+
+.del:active {
+    transform: translateX(10px);
+    outline: 2px solid white;
+    border: 1px solid rgb(255, 72, 0);
+    z-index: -1;
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 4, 4), rgb(239, 241, 241));
+    box-shadow: 2px 2px 10px rgb(255, 0, 0), -2px -2px 10px green, 2px 2px 10px rgb(225, 255, 0);
+
+}
+
+#euqlBtn:active {
+    transform: scale(3);
+    outline: none;
+    z-index: -1;
+    color: #0f0f0f;
+    transition: all 1s cubic-bezier(0.86, 0, 0.07, 2);
+    background: linear-gradient(rgb(85, 255, 0), rgb(255, 255, 255));
+    box-shadow: 2px 2px 10px red, -2px -2px 10px rgb(75, 250, 0), 2px 2px 10px rgb(246, 255, 0);
+}
