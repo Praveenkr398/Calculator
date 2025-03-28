@@ -1,26 +1,28 @@
-Live: https://praveenkr398.github.io/Calculator/
+# 🧮 Calculator - Simple & Interactive  
 
-📌 Simple Calculator using HTML, CSS, and JavaScript | Full Tutorial
+🚀 A sleek and fully functional **calculator** built using **HTML, CSS, and JavaScript**. This project provides a user-friendly interface with smooth interactions and essential arithmetic operations.  
 
-Welcome to my latest project! In this video, I’ll be showcasing a fully functional calculator built using HTML, CSS, and JavaScript. This calculator can handle basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean and responsive UI, making it easy to use on any device.
+## 🌟 Features  
+✔ **Basic Arithmetic Operations** – Addition, Subtraction, Multiplication, and Division ➕➖✖️➗  
+✔ **Clear & Backspace Functionality** – Delete entire input or remove numbers one by one 🔙  
+✔ **Negative to Positive Toggle** – Convert negative numbers to positive with a single click 🔄  
+✔ **Smooth Button Click Effects** – Beautiful power effects on button clicks ✨  
+✔ **Responsive Design** – Works seamlessly across all devices 📱💻  
 
-🔹 Features:
-✅ Basic arithmetic operations (+, -, ×, ÷)
-✅ Responsive design with CSS
-✅ JavaScript-powered functionality
-✅ Clear and user-friendly interface
+## 📷 Preview  
+![Calculator Preview](https://github.com/user-attachments/assets/0369c00c-5b89-4fe0-9bef-f3af4a020216)  
 
-🔹 Technologies Used:
-🟢 HTML – Structure of the calculator
-🟢 CSS – Styling and layout
-🟢 JavaScript – Logic and functionality
+## 🔗 Live Demo  
+👉 [Try it Here](https://praveenkr398.github.io/Calculator/)  
 
+## 🛠 Technologies Used  
+- HTML5  
+- CSS3  
+- JavaScript  
 
-📢 Don't forget to Like, Comment, and Subscribe for more amazing web development projects! 🚀
+## 📂 Project Repository  
+🔗 [GitHub Repository](https://github.com/Praveenkr398/Calculator)  
 
-#HTML #CSS #JavaScript #WebDevelopment #Coding #Calculator
-
-
-
-
-![image](https://github.com/user-attachments/assets/0369c00c-5b89-4fe0-9bef-f3af4a020216)
+## 📩 Contact  
+For any queries, suggestions, or collaborations, connect with me:  
+🔗 [LinkedIn](https://www.linkedin.com/in/Praveenkr398)  
