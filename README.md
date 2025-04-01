@@ -12,6 +12,8 @@
 ## 📷 Preview  
 ![Calculator Preview](https://github.com/user-attachments/assets/0369c00c-5b89-4fe0-9bef-f3af4a020216)  
 
+Category:- "Mini Project, HTML, CSS, JavaScript"
+
 ## 🔗 Live Demo  
 👉 [Try it Here](https://praveenkr398.github.io/Calculator/)  
 
